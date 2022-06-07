@@ -8,13 +8,11 @@ object Factorial {
   //      if the input to the factorial function is large.  What is the
   //      largest Int for which you can correctly compute the factorial?
   def factorial(n: Int): Int = {
-    if (n==0)
+    if (n == 0)
       1
     else
-      n * factorial(n-1)
+      n * factorial(n - 1)
   }
 
-  def main(argv: Array[String]): Unit = {
-
-  }
+  def main(argv: Array[String]): Unit = {println(factorial(5))}
 }

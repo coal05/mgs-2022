@@ -16,7 +16,7 @@ object QuadraticFormula {
       (-b - sqrt(d)) / (2 * a)
     )
     else
-      List()
+      List[Double]()
   }
 
     def discriminant (a: Int, b: Int, c: Int) : Int = {
