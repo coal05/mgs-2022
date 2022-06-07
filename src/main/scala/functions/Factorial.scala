@@ -14,5 +14,6 @@ object Factorial {
       n * factorial(n - 1)
   }
 
-  def main(argv: Array[String]): Unit = {println(factorial(5))}
+  def main(argv: Array[String]): Unit = {
+  println(factorial(5))}
 }
