@@ -15,5 +15,8 @@ object Factorial {
   }
 
   def main(argv: Array[String]): Unit = {
-  println(factorial(5))}
+    for { n <- 1 to 20 
+    } println(s"$n --> ${factorial(n)}")
+  }
+
 }
